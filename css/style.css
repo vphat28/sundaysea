@@ -1,0 +1,227 @@
+*{font-size:13px;font-family:Arial, Helvetica, sans-serif;margin:0;padding:0}div,img,label,p,h1,h2,h3,h4,h5,h6,pre,ul,ol,li,form,a,fieldset,textarea{border:none;outline:none}ul,ol{list-style:none}a{text-decoration:none}table,tbody,tr,td,th{border-collapse:collapse;border-spacing:0}input,select{outline:0}.clr{clear:both;height:0;font-size:0}
+
+body{background:url(../img/background-body.png)}
+
+.wrapper{width:960px;margin:0 auto;position:relative}
+.topArea{height:560px}
+
+/* --- TopContent --- */
+.TopContent{height:1065px;background:url(../img/bg-content.png);width:1019px;position:relative;left:-40px;z-index:9;margin-bottom:-9px}
+
+.OrderForm{width:360px;height:562px;position:absolute;right:-2px;top:63px;background:url(../img/order-form-bg.png) no-repeat;padding:12px 0 0 2px}
+.OrderForm .tit{background:url(../img/order-tit.png) no-repeat -1px 0px;width:292px;height:94px;margin:0 auto;margin-bottom: 7px;}
+.OrderForm form{padding-right:20px}
+.OrderForm .Line{height:26px;float:right;clear:both;padding:7px 4px 7px 5px;margin-right:12px}
+.OrderForm .Line input{height:18px;font-family:Arial, Helvetica, sans-serif;line-height:18px;color:#3e3e3e;background:url(../img/input-bg.png);border:0;width:200px;padding:7px 4px 7px 5px}
+.OrderForm .Line select
+{
+ 
+    width: 209px;
+    padding: 5px;
+    border-radius: 5px;
+    border: #ccc 1px solid;
+ 
+}
+.OrderForm .Submit{width:296px;height:60px;cursor:pointer;background:url(../img/submitdetail-bg.png);border:0;bottom:26px;right:34px;position:absolute}
+.OrderForm .Line label{font-size:14px;color:#fff;width:73px;display:inline-block;text-align:right;margin-right:10px ;line-height:38px;}
+/* --- end TopContent --- */
+
+/* --- leftColumn --- */
+.leftColumn{position:absolute;left:40px;height:560px;width:575px}
+
+#logo{width:196px;height:73px;position:absolute;top:8px;left:13px}
+
+.leftColumn > .tit{position:absolute;left:215px;top:20px;width:298px;font-size:25px;color:#fff;width:255px;font-family:Arial, Helvetica, sans-serif;font-style:italic;text-shadow:1px 1px 2px #51246d;text-align:center;text-transform:uppercase;letter-spacing:-2px;word-spacing:-1px}
+
+.present{position:absolute;top:80px;left:13px;width:244px}
+.present .tit{color:#a6d73f;font-size:14px}
+.present p{color:#eefaff;font-size:13px}
+
+.effect{position:absolute;top:138px;left:15px}
+.effect li{background:url(../img/bulet.png) no-repeat;padding-left:35px;height:34px;color:#eefaff;font-size:18px;line-height:40px}
+/* --- end leftColumn --- */
+
+/* --- member --- */
+#member{padding:27px 0 0 80px}
+#membership{float:left;width:565px;padding-top:20px}
+#membership > .tit{width:477px;height:26px;padding-bottom:20px}
+.member li{background:url(../img/bg-membership.png) no-repeat;width:540px;padding:10px 20px 20px 10px;margin-bottom:5px}
+.member li .tit{color:#5f1e77;font-size:18px;text-decoration:underline;font-style:italic;padding-bottom:10px}
+.member li p{font-size:13px;color:#3e3e3e}
+
+.introduce{background:url(../img/bg-introduce.png) no-repeat;padding:10px;width:284px;float:right;margin-right:54px;height:98px;text-align:right}
+.introduce *{color:#5e1e76}
+.introduce .tit{font-size:15px;font-weight:bold}
+.introduce p{font-size:13px}
+/* --- end member --- */
+
+#imageArea{background:url(../img/bg-imagearea.png) repeat-y;height:542px}
+
+/* --- YoursMemberShip --- */
+.YoursMemberShip{height:293px;width:978px;left:-8px;position:relative;background:url(../img/yoursmembership.png) no-repeat;position:relative;top:-33px;margin-bottom:-33px}
+.YoursMemberShip .Text{width:385px;position:absolute;left:340px;top:92px}
+.YoursMemberShip .Text p{color:#fff;font-size:13px}
+.YoursMemberShip .Link{width:296px;height:59px;position:absolute;right:44px;bottom:41px}
+/* --- end YoursMemberShip --- */
+
+/* --- footer --- */
+#footer{padding:0 0 15px;overflow:hidden;clear:both}
+#footer *{color:#5f1e76;font-size:13px}
+#footer .Legal{float:left;width:350px}
+#footer .DesignBy{float:right}
+#footer .Private{float:left;width:238px;padding-left:95px}
+/* --- end footer --- */
+
+/* --- middleContent --- */
+#middleContent{background:url(../img/background-middle-content.png) repeat-y;width:964px;position:relative;left:-2px;padding-bottom:33px}
+.BackgroundBottom{background:url(../img/wrapper-bottom-bg.png) no-repeat 100% 100%;width:964px;height:36px;margin-bottom:-69px}
+#middleContent .Inner{background:url(../img/background-middle-content-inner.png) no-repeat 13px 0;position:relative}
+.line{background:url(../img/bg-line.png) no-repeat;position:absolute;top:60px;left:428px;width:109px;height:246px}
+
+.HealthyBenefits{width:445px;background:url(../img/heath-tit.png) no-repeat 43px 30px;padding-top:70px;float:left}
+.HealthyBenefits img{float:left;margin:0 0 0 20px}
+.HealthyBenefits .Text{float:right;width:235px}
+.HealthyBenefits .Text p,.ImportantFacts .Text p{color:#3e3e3e;font-size:13px;padding-bottom:10px;text-align:justify}
+
+.ImportantFacts{width:445px;float:right;background:url(../img/importantfacr-tit.png) no-repeat 0 30px;padding-top:70px }
+.ImportantFacts img{float:right;margin:-60px 0 0 0}
+.ImportantFacts .Text{float:left;width:225px;margin}
+
+.WhatPeopleSay{padding:57px 28px 0;background:url(../img/whatpeoplesay.png) no-repeat 50% 0;overflow:hidden;clear:both}
+.WhatPeopleSay .Part{width:414px;float:left;margin:0 20px}
+.WhatPeopleSay .Text{padding:12px 0 0 33px;background:url(../img/icon-quote.png) no-repeat;text-align:justify}
+.WhatPeopleSay .Info{position:relative;height:52px}
+.WhatPeopleSay .Info *{position:absolute;color:#3e3e3e}
+.WhatPeopleSay .Avatar{font-size:0;right:0;top:0;width:52px;height:52px}
+.WhatPeopleSay .Avatar img{width:52px;height:52px}
+.WhatPeopleSay .UserName{right:60px;bottom:17px;font-weight:bold}
+.WhatPeopleSay .Address{right:60px;bottom:0}
+/* --- end middleContent --- */
+
+/* --- Warning --- */
+.Warning{width:800px;margin-left:53px;text-align:center;height:63px;font-size:0;padding-top:8px;background:url(../img/warnning-bg.png) no-repeat;padding:0 63px 5px}
+.Warning p{color:#5f1e77;font-size:18px;font-style:italic;letter-spacing:-1px;word-spacing:1px}
+.Warning p strong{color:#ff0000;font-weight:normal;font-size:18px}
+
+.WarningOrder{margin-left:17px}
+/* --- end Warning --- */
+
+/* --- LiveChat --- */
+.LiveChat{background:url(../img/livechat-bg.png) no-repeat;width:193px;height:78px;position:fixed;right:0;top:50%;z-index:99}
+.LiveChat a{color:#5f1e76;font-size:15px;padding:25px 20px 0 45px;display:block}
+.LiveChat a strong{font-size:27px}
+/* --- end LiveChat --- */
+
+/* --- ThankYou --- */
+.ThankYouPurchase{background:url(../img/thankyou-bg.png) no-repeat;width:978px;height:335px}
+.ThankYouPurchase .tit{text-align:center;line-height:46px;font-size:25px;color:#fff;text-transform:uppercase;font-style:italic;padding:23px 0 22px}
+.ThankYouPurchase p{width:855px;margin:0 auto;color:#5f1f77;font-size:15px;line-height:1.2}
+
+.ThankYou .Banner{margin-top:-15px;left:0;left:-8px}
+.ThankYou .Banner .tit{width:650px;text-shadow:1px 1px #9b919c}
+/* --- end ThankYou --- */
+
+/* --- banner --- */
+.Banner{background:url(../img/bg-banner.png) no-repeat;width:978px;height:258px;position:relative;left:-8px;margin-bottom:-9px;z-index:3}
+.Banner > .tit{font-size:25px;color:#fff;text-align:center;width:384px;margin:0 auto;text-transform:uppercase;padding-top:24px;font-style:italic;line-height:1}
+.Banner .Logo{position:absolute;top:66px;left:25px}
+.Banner .present{position:absolute;top:186px;left:30px;width:310px}
+.Banner .Service{position:absolute;top:80px;left:395px}
+.Banner .Service li{background:url(../img/bulet.png) no-repeat;padding-left:35px;height:34px;line-height:34px;color:#eefaff;font-size:18px;margin-bottom:-3px}
+/* --- end banner --- */
+
+/* --- LeftColumn --- */
+.LeftColumn{width:590px;float:left;padding:15px 0 0 27px;clear:both}
+.LeftColumn > .tit{background:url(../img/left-tittle.png) no-repeat;width:590px;height:43px;line-height:43px;text-align:center;color:#fff;font-size:18px;font-weight:normal;padding-bottom:9px}
+.LeftColumn > .tit strong{color:#ff0000;font-size:18px}
+/* --- end LeftColumn --- */
+
+/* --- ProductList --- */
+.ProductList li{
+cursor: pointer;
+}
+.ProductList> ul > li{background:url(../img/bg-product.png) no-repeat;padding:9px 9px 0;overflow:hidden}
+.ProductList li .tit{background:url(../img/product-tit-bg.png) no-repeat;width:557px;height:48px;line-height:48px;padding-left:15px;color:#fff;text-transform:uppercase;font-size:25px;font-style:italic}
+.ProductList .CheckBox{background:url(../img/check-box-bg.png) no-repeat;width:32px;height:34px;float:left;margin-top:80px}
+.ProductList .ProductImg{padding-top:10px;width:353px;height:161px;float:left}
+.ProductList .ProductImg img{}
+.ProductList .Article{padding-top:10px;width:155px;float:left;margin-left:10px}
+.ProductList .Article p{color:#5f1f77;font-size:18px;text-align:right}
+.ProductList .Article strong{font-size:37px}
+.ProductList .Article span{color:#93bd3a;font-size:14px}
+
+.SubmitOrder{padding-top:10px;margin-left:65px}
+.SubmitOrder .Ribbon{background:url(../img/ribbon-bg.png) no-repeat;width:78px;height:78px;float:left;text-align:center;text-transform:uppercase;color:#fff;font-size:19px;padding-top:15px}
+.SubmitOrder .ButtonOrder{margin:15px 5px 0;width:249px;height:51px;background:url(../img/order-bg.png);float:left;text-align:center}
+.SubmitOrder .ButtonOrder a{width:249px;height:51px;display:block;color:#fff;text-transform:uppercase;line-height:51px;font-size:23px;font-style:italic}
+/* --- end ProductList --- */
+
+/* --- RightColumn --- */
+.RightColumn{width:335px;float:right}
+.FinalStep{width:360px;height:737px;position:absolute;top:0;right:-11px}
+.FinalStep .InfoPayment{background:url(../img/info-payment--bg.png) no-repeat;width:360px;height:727px;padding-top:11px}
+.FinalStep .InfoPayment .tit{background:url(../img/final-step-tit.png);width:292px;height:94px;margin:0 auto}
+.FinalStep .Line{height:26px;padding:7px 5px}
+.FinalStep .Line p
+{
+overflow:hidden;
+}
+.FinalStep .Line label{width:100px;text-align:right;margin-right:10px;font-size:14px;color:#fff;float:left;line-height: 30px;}
+.FinalStep .Line input{height:18px;font-family:Arial, Helvetica, sans-serif;line-height:18px;color:#3e3e3e;background:url(../img/input-bg.png) no-repeat;border:0;width:200px;padding:7px 4px 7px 5px}
+.FinalStep .Line select{
+ 
+ 
+    width: 209px;
+    padding: 5px;
+    border-radius: 5px;
+    border: #ccc 1px solid;
+ 
+ float:left;
+ 
+}
+.FinalStep .Cvv input{width:53px;height:18px;background:url(../img/cvv-bg.png)}
+.FinalStep .Cvv span{color:#fff;font-size:14px}
+.FinalStep .BtnHelp{position:absolute;right:35px;width:42px;height:21px;top:600px;display:block;background:url(../img/btn-help.png);padding-left:22px;line-height:21px;color:#fff}
+.FinalStep .Submit{width:298px;height:61px;border:none;position:absolute;right:33px;top:647px;cursor:pointer;background:url(../img/submitdetail-bg.png)}
+
+.FinalStep .CardPayment{position:absolute;top:794px;right:52px;text-align:center}
+.FinalStep .introduce{position:absolute;top:932px;right:-12px}
+/* --- end RightColumn --- */
+
+/* --- TotalPayment --- */
+.TotalPayment{background:url(../img/bg-product.png) no-repeat;padding:9px 9px 0;overflow:hidden}
+.TotalPayment .Title{background:url(../img/product-tit-bg.png) no-repeat;width:557px;height:48px;line-height:48px;padding-left:15px}
+.TotalPayment .Title h3{display:inline-block;color:#fff;font-size:25px;text-transform:uppercase;font-style:italic}
+.TotalPayment .Title .Name{margin-right:160px}
+.TotalPayment .Title .Price{float:right;margin-right:20px}
+
+.ProductPrice{padding:15px 0;overflow:hidden}
+.ProductPrice p{color:#5f1f77;font-size:14px}
+.ProductPrice .Name{width:280px;float:left;padding-left:20px;}
+.ProductPrice .Quantity{width:115px;float:left;text-align:center}
+.ProductPrice .Price{width:75px;float:right;text-align:center;margin-right:20px}
+.ProductPrice.Hidden{display: none}
+.Product3 .ProductImg img{margin-left:100px}
+
+.InfoAddOn .AddOn{color:#5f1f77;font-size:14px;font-weight:bold;line-height:34px}
+
+.InfoAddOn .Text{color:#5f1f77;font-size:13px;width:292px}
+
+.ToTal{padding:25px 0 15px}
+.ToTal p{color:#5f1f77;font-size:14px;font-weight:bold}
+.ToTal label{display:inline-block;width:406px;padding-right:86px;text-align:right}
+
+.Poduct2Payment,.Poduct3Payment{display:none}
+/* --- end TotalPayment --- */
+.Order #footer{padding-top:30px}
+.ProductList .CheckBox.Checked{background:url(../img/check-box-curent.png) no-repeat;width:32px;height:34px;float:left;margin-top:72px}
+.InfoAddOn .CheckBox{background:url(../img/check-box-bg.png) no-repeat 0 100%;width:32px;height:34px;float:left;margin:0 5px 0 0}
+.ProductList .InfoAddOn .CheckBox.Checked{background:url(../img/check-box-curent.png) no-repeat;width:32px;height:34px;margin-right:5px;margin-top:0}
+.social{background:url(../img/arrow.png) no-repeat 50% 0;position:absolute;top:708px;padding-top:9px;right:50px;width:260px;height:63px}
+.social img{width:260px;height:63px}
+
+#browser_instructions{position:fixed;z-index:101;background:url(../img/exit.gif);width:700px;height:288px;left:20px;top:20px}#browser_overlay{background:black;display:none;width:100%;height:100%;opacity:0.6;position:fixed;z-index:100}
+#safe-buy-bg{
+background:url(../img/safe-buy.png) no-repeat;width:122px;height:85px;position:fixed; bottom:0;left: 0;
+
+}
