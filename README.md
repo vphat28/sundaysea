@@ -1,3 +1,3 @@
 sundaysea
 =========
-JUST TO PLAYING WITH GIT
+JUST TO PLAY WITH GIT
